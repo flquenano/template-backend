@@ -1,0 +1,32 @@
+{
+  "name": "template-backend",
+  "version": "1.0.0",
+  "description": "base template for starting a node-express project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flquenano/template-backend.git"
+  },
+  "keywords": [
+    "backend",
+    "template"
+  ],
+  "author": "Francis Quenano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flquenano/template-backend/issues"
+  },
+  "homepage": "https://github.com/flquenano/template-backend#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3"
+  }
+}
